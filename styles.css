@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container
+  {
+    height: 748px;
+    width: 748px;
+    display: grid;
+    grid-template-columns: 320px 198px 153px 50px;
+    grid-template-rows: 414px 130px 155px 20px;
+    gap: 9px;
+    background-color:#000 ;
+  }
+
+  .silver
+  {
+    background-color: #F0F1EC;
+  }
+  .one{
+      background-color: #E72F24;
+  }
+  .two
+  {
+    grid-area: 2/1/4/2;
+  }
+  .three
+  {
+    grid-area:2/2/4/4;
+  }
+  .four
+  {
+    grid-area: 3/4/5/5;
+  }
+  .five
+  {
+    background-color: #004592 ;
+    grid-area: 2/4/3/5;
+    margin-bottom: 10px;
+  }
+  .six
+  {
+    grid-area: 4/1/5/2;
+  }
+  .seven
+{
+  background-color:#F9D01E ;
+  grid-area: 4/2/5/3;
+}
+.eight
+{
+  background-color:#232629 ;
+  grid-area: 4/3/5/4;
+}
+.nine{
+  grid-area: 1/2/2/5;
+}
